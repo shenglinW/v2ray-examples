@@ -1,0 +1,27 @@
+{
+    "log": {
+        "loglevel": "warning"
+    },
+    "inbounds": [
+        {
+            "port": 34741,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "7bd8cad0-912d-4b4e-b2a7-e3b20a6da07b"
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp"
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "tag": "direct"
+	}
+    ]
+}
