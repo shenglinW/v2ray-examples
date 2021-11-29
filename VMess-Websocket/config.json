@@ -14,11 +14,11 @@
 	},
 	"inbounds": [{
 		"listen": "0.0.0.0",
-		"port": 33674,
+		"port": 38256,
 		"protocol": "vmess",
 		"settings": {
 			"clients": [{
-				"id": "c0f44d44-50b6-11ec-bf63-0242ac130002"
+				"id": "7bd8cad0-912d-4b4e-b2a7-e3b20a6da07b"
 			}]
 		},
 		"streamSettings": {
@@ -26,7 +26,7 @@
 			"security": "none",
 			"wsSettings": {
 				"path": "/8A3H6142/"
-			},
+			}
 		}
 	}],
 	"outbounds": [{
